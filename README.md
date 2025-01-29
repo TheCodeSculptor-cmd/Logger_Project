@@ -18,14 +18,14 @@ A Python-based logging utility designed to efficiently generate, process, analyz
 * Visualization: Graph log frequency trends over time using Matplotlib.
 
 # Installation
-1. Clone the Repository:
+* Clone the Repository:
 ` git clone https://github.com/TheCodeSculptor-cmd/Logger_Project.git 
 cd Logger_Project`
-2. Set Up a Virtual Environment (Optional but recommended):
+* Set Up a Virtual Environment (Optional but recommended):
 `python3 -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 `
-3. Install Dependencies:
+* Install Dependencies:
 `pip install -r requirements.txt`
 Note: Ensure requirements.txt includes all necessary packages, such as pandas, numpy, matplotlib, beautifulsoup4, and requests.
 
@@ -62,10 +62,10 @@ A line graph will display the number of logs per day, helping identify activity 
 
 ## Contributions are welcome! Please follow these steps:
 ## Fork the repository.
-1.Create a new branch (git checkout -b feature/YourFeature).
-2.Commit your changes (git commit -m 'Add YourFeature').
-3.Push to the branch (git push origin feature/YourFeature).
-4.Open a Pull Request.
+* Create a new branch (git checkout -b feature/YourFeature).
+* Commit your changes (git commit -m 'Add YourFeature').
+* Push to the branch (git push origin feature/YourFeature).
+* Open a Pull Request.
 For major changes, please open an issue first to discuss what you'd like to change.
 
 Note: Replace placeholders like log_generator, log_processor, log_analyzer, and log_visualizer with the actual module names in your project. Ensure that the requirements.txt file is up-to-date with all dependencies.
