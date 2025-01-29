@@ -31,7 +31,8 @@ Note: Ensure requirements.txt includes all necessary packages, such as pandas, n
 
 
 # Usage
-Generating Logs
+
+# Generating Logs
 To generate random log entries and save them to a file:
 `from log_generator import write_logs_to_file
 write_logs_to_file('generated_logs.txt', num_entries=200)
