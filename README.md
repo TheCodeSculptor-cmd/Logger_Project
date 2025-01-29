@@ -1,15 +1,15 @@
 # Logger_Project
 A Python-based logging utility designed to efficiently generate, process, analyze, and visualize application logs.
 # Table of Contents
-Features
-Installation
-Usage
-Generating Logs
-Processing Logs
-Analyzing Logs
-Visualizing Logs
-Contributing
-License
+* Features
+* Installation
+* Usage
+* Generating Logs
+* Processing Logs
+* Analyzing Logs
+* Visualizing Logs
+* Contributing
+* License
 
 # Features
 # Random Log Generation: Create logs with varying levels (INFO, DEBUG, ERROR, WARNING) and actions (Login, Logout, Data Request, etc.).
