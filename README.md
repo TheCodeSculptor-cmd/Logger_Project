@@ -12,10 +12,10 @@ A Python-based logging utility designed to efficiently generate, process, analyz
 * License
 
 # Features
-# Random Log Generation: Create logs with varying levels (INFO, DEBUG, ERROR, WARNING) and actions (Login, Logout, Data Request, etc.).
-# Log Processing: Load and clean log data for analysis.
-# Statistical Analysis: Perform basic analytics, including log counts, unique user identification, and activity metrics.
-# Visualization: Graph log frequency trends over time using Matplotlib.
+* Random Log Generation: Create logs with varying levels (INFO, DEBUG, ERROR, WARNING) and actions (Login, Logout, Data Request, etc.).
+* Log Processing: Load and clean log data for analysis.
+* Statistical Analysis: Perform basic analytics, including log counts, unique user identification, and activity metrics.
+* Visualization: Graph log frequency trends over time using Matplotlib.
 
 # Installation
 1. Clone the Repository:
