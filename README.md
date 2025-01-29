@@ -32,28 +32,28 @@ Note: Ensure requirements.txt includes all necessary packages, such as pandas, n
 
 # Usage
 
-# Generating Logs
+* Generating Logs
 To generate random log entries and save them to a file:
 `from log_generator import write_logs_to_file
 write_logs_to_file('generated_logs.txt', num_entries=200)
 `
 This script creates a file named generated_logs.txt containing 200 random log entries. You can adjust the num_entries parameter as needed.
 
-# Processing Logs
+* Processing Logs
 Load and process the generated logs:
 `from log_processor import load_and_process_logs
 df_logs = load_and_process_logs('generated_logs.txt')
 `
 This function reads the log file into a pandas DataFrame, cleans the data, and sets the timestamp as the index for further analysis.
 
-# Analyzing Logs
+* Analyzing Logs
 Perform basic statistical analysis on the processed logs:
 `from log_analyzer import analyze_data
 stats = analyze_data(df_logs)
 `
 This will output statistics such as log level counts, action counts, total number of logs, unique users, and average logs per day.
 
-# Visualizing Logs
+* Visualizing Logs
 Visualize log frequency trends over time:
 `from log_visualizer import visualize_trends
 visualize_trends(df_logs)`
